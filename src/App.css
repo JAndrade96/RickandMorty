@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1{
+  font-family: "Pangolin",sans-serif;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.App{
+  text-align: center;
+  padding: 70px;
+}
+
+.title{
+  display: contents;
+}
+
+.banner{
+  display: flex;
+  background-image: url(https://arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/QQWVSJ6MDVGKRELX455KIABEEY.gif);
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  margin: 0;
+  max-width: 100%;
+  position: relative;
+  top: -2rem;
+  background-position: 45% 35%;
+}
+
+.input{
+  background: #E5E5E5;
+  color: #05292E;
+  box-shadow: 1px 1px 6px rgb(0 0 0 / 50%);
+  border: 0;
+  width: 100%;
+  height: 25px;
+  font-size: 1rem;
+}
+
+.material-symbols-outlined{
+  color: #05292E;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  left: 45%;
+  top: -1rem;
+  transform: translateY(-50%);
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.item{
+  width: 100%;
+  padding: 10px;
+}
+
+.card-img{
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  height: 100%;
+  margin: 1rem;
+}
+
+.card-img img{
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.Location-info{
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  background-color: #272121;
+  border-radius: 1rem;
+}
+
+.circle{
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  position: relative;
+  left: -22%;
+  top: 2.4rem;
+  border-radius: 50%;
+}
+
+.red {
+  background: red;
+}
+.green {
+  background: green;
+}
+.gray {
+  background: gray;
+}
+
+.Location-info{
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-between;
+}
+
+@media (min-width: 558px) {
+  .item {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  .item {
+    width: 90%;
+  }
+}
+
+@media (min-width: 992px) {
+  .item {
+    width: 90%;
+  }
+}
